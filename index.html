@@ -4,54 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lagoona</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <a href="/" class="header_logo">
-                <img src="img\Logo.svg" alt="logo">
+        <div class="container header_container">
+            <a href="#" class="header_logo">
+                <img src="img/Logo.svg" alt="logo">
             </a>
             <a href="tel:+7495322544834">+7 495 322 54 48 34</a>
             <a href="" class="container_perosonal_area">Личный кабинет</a>
-            
-        <nav class="header_nav">
-            <ul class="header_list">
-                <li class="header_list_item">О нас</li>
-                <li class="header_list_item">Услуги</li>
-                <li class="header_list_item">Преимущества</li>
-                <li class="header_list_item">Размещение</li>
-                <li class="header_list_item">Блог</li>
-                <li class="header_list_item">Контакты</li>
-            </ul>
-        </nav>
-        <input type="search" name="search" placeholder="Поиск по сайту"> 
-    
+        </div>
+        <div class="container header_two_container">   
+            <nav class="header_nav">
+                <ul class="header_list">
+                    <li class="header_list_item">
+                        <a href="" class="header_list_link">О нас</a>
+                    </li>
+                    <li class="header_list_item">
+                        <a href="" class="header_list_link">Услуги</a>
+                    </li>
+                    <li class="header_list_item">
+                        <a href="" class="header_list_link">Преимущества</a>
+                    </li>
+                    <li class="header_list_item">
+                        <a href="" class="header_list_link">Размещение</a>
+                    </li>
+                    <li class="header_list_item">
+                        <a href="" class="header_list_link">Блог</a>
+                    </li>
+                    <li class="header_list_item">
+                        <a href="" class="header_list_link">Контакты</a>
+                    </li>
+                        <input type="search" class="header_search" name="search" placeholder="Поиск">
+                </ul>
+            </nav>
         </div>
     </header>
 
     <main class="main">
         <section class="reservation">
-            <div class="container"> 
+            <div class="container first_section_container"> 
                 <h1 class="reservation_title">Быстрая бронь</h1>
                 <div class="header_nav">
-                    <input type="text" name="town" placeholder="Город">
-                    <input type="number" name="number" placeholder="Категория номера">
-                    <input type="date" name="date" placeholder="Дата заселения">
-                    <input type="text" name="town" placeholder="Количество ночей">
-                    <input type="text" name="town" placeholder="Количество гостей">
+                    <input type="text" class="reservation_item" name="town" placeholder="Город">
+                    <input type="number" class="reservation_item" name="number" placeholder="Категория номера">
+                    <input type="date" class="reservation_item" name="date" placeholder="Дата заселения">
+                    <input type="text" class="reservation_item" name="town" placeholder="Количество ночей">
+                    <input type="text" class="reservation_item" name="town" placeholder="Количество гостей">
                 </div>
-                <button class="reservation_btn_btn">
+                <button class="reservation_btn btn">
                     Найти номер
                 </button>
             </div>
         </section>
         <section class="special_offer">
-            <div class="container"> 
+            <div class="container special_offer_container"> 
                     <h1 class="special_offer_title">Спецпредложение</h1>
-                        <img src="img/22.png" alt="">
+                        <img src="img/22.png"  width="595" height="540" alt="">
                     <div class="special_offer_subtitle">Номера категории люкс</div>
                         <div class="special_offer_price">от 5000 р</div>
-                            <a href="#">Подробнее <img src="img/Прямоугольник 2 копия 7.png"></a>
+                            <a href="#" class="special_offer_more_details">Подробнее<img src="img/Прямоугольник 2 копия 7.png"></a>
             </div>
         </section>
         <section class="about_us">
@@ -149,63 +163,63 @@
             <div class="container">
                 <h1 class="accommodation_title section_title">Размещение</h1>
                 <ul>
-                    <li class="advantages_item">
+                    <li class="accommodation_item">
                         <img src="img/23.jpg" alt="">
                             <p class="advantages_text">от 4 698 р / ночь Lagoona española</p>
                                 <div class="advantage_text_item">Барселона, Испания</div>
-                                    <button>Номера</button>
+                                    <button class="accommodation_btn btn">Номера</button>
                     </li>
 
-                    <li class="advantages_item">
+                    <li class="accommodation_item">
                         <img src="img/24.jpg" alt="">
                             <p class="advantages_text">от 5 148 р / ночь Lagoona son típicas</p>
                                 <div class="advantage_text_item">Барселона, Испания</div>
-                                    <button>Номера</button>
+                                    <button class="accommodation_btn btn">Номера</button>
                     </li>
 
-                    <li class="advantages_item">
+                    <li class="accommodation_item">
                         <img src="img/26.jpg" alt="">
                             <p class="advantages_text">от 6 254 р / ночь Lagoona de la guerra</p>
                                 <div class="advantage_text_item">Барселона, Испания</div>
-                                    <button>Номера</button>
+                                    <button class="accommodation_btn btn">Номера</button>
                     </li>
 
-                    <li class="advantages_item">
+                    <li class="accommodation_item">
                         <img src="img/29.jpg" alt="">
                             <p class="advantages_text">от 6 320 р / ночь Lagoona mentira piadosa</p>
                                 <div class="advantage_text_item">Барселона, Испания</div>
-                                    <button>Номера</button>
+                                    <button class="accommodation_btn btn">Номера</button>
                     </li>
 
-                    <li class="advantages_item">
+                    <li class="accommodation_item">
                         <img src="img/30.jpg" alt="">
                             <p class="advantages_text">от 6 457р / ночь Lagoona empujar la creatividad</p>
                                 <div class="advantage_text_item">Барселона, Испания</div>
-                                    <button>Номера</button>
+                                    <button class="accommodation_btn btn">Номера</button>
                     </li>
 
-                    <li class="advantages_item">
+                    <li class="accommodation_item">
                         <img src="img/31.jpg" alt="">
                             <p class="advantages_text">от 6 490 р / ночь Lagoona el retorno</p>
                                 <div class="advantage_text_item">Барселона, Испания</div>
-                                    <button>Номера</button>
+                                    <button class="accommodation_btn btn">Номера</button>
                     </li>
 
-                    <li class="advantages_item">
+                    <li class="accommodation_item">
                         <img src="img/27.jpg" alt="">
                             <p class="advantages_text">от 6 505 р / ночь Lagoona enfermo terminó</p>
                                 <div class="advantage_text_item">Барселона, Испания</div>
-                                    <button>Номера</button>
+                                    <button class="accommodation_btn btn">Номера</button>
                     </li>
 
-                    <li class="advantages_item">
+                    <li class="accommodation_item">
                         <img src="img/28.jpg" alt="">
                             <p class="advantages_text">от 6 824 р / ночь Lagoona suerte siguió siempre</p>
                                 <div class="advantage_text_item">Барселона, Испания</div>
-                                    <button>Номера</button>
+                                    <button class="accommodation_btn btn">Номера</button>
                     </li>
 
-                    <li class="advantages_item">
+                    <li class="accommodation_item">
                         <img src="img/41.jpg" alt="">
                                 <a href="#">Посмотреть все варианты<img src="img/Прямоугольник 2 копия 7.png"></a>
                     </li>
@@ -238,7 +252,7 @@
                                 <p class="contact_item_text">Понедельник - пятница, с 10:0 до 19:00</p>
                         </li>
                     </ul>
-                <button>Построить маршрут</button>
+                <button  class="contact_btn btn">Построить маршрут</button>
                 
             </div>
         </section>
@@ -257,7 +271,7 @@
                             <input type="text" name="message" placeholder="Сообщение...">
                         </li>                        
                     </ul>
-                        <button>Отправить</button>
+                        <button  class="feedback_btn btn">Отправить</button>
             </div>    
         </section>
     </main>
